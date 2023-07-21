@@ -13,7 +13,7 @@ The algorithm is a modified version of backgroundnet.py called my-filter.py.  Th
 2. Make sure the sys, argparse, jetson_inference, and jetson_utils libraries are imported.
 3. Download the python and image files in this github.
 4. If you know what image you want to filter, upload it to the same directory.
-5. Write the following command: `python3 my-filter.py [name of input file (the file you want to filter)] [name of output file]`.  For example, if you input an image called `image1.jpg` and output a file called `output1.jpg`, you would do 'python3 my-filter.py input.jpg output.jpg`.  If you are inputing a video, you would do the same thing but using a different extension than `.jpg`, such as `.mp4`.  If you are inputting live video, you would do `python3 my-filter.py /dev/video output.mp4`.
+5. Write the following command: `python3 my-filter.py [name of input file (the file you want to filter)] [name of output file]`.  For example, if you input an image called `image1.jpg` and output a file called `output1.jpg`, you would do `python3 my-filter.py input.jpg output.jpg`.  If you are inputing a video called `input.mp4`, you would do the same thing but using a different extension than `.jpg`, such as `.mp4`.  If you are inputting live video, you would do `python3 my-filter.py /dev/video output.mp4`.
 6. When prompted, enter a number corresponding to the background image you want.
 7. Retrieve your newly filtered file.
 
