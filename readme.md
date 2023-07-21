@@ -14,4 +14,4 @@ The algorithm is a modified version of backgroundnet.py called my-filter.py.  Th
 4. If you know what image you want to filter, upload it to the same directory.
 5. When prompted, enter a number corresponding to the background image you want.
 
-[View a video explanation here](https://watch.screencastify.com/v/jQ4qJ8nqoS9q4RXF9hGL)
+[View a video explanation here](https://youtu.be/u66XpFIK2pY)
